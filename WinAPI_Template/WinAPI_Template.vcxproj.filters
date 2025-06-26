@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Utility">
+      <UniqueIdentifier>{2bb74f2a-89ac-49e3-9623-19385ccf0d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PCH">
+      <UniqueIdentifier>{9a10720a-dc9e-4ec8-a6de-935ba8818ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{a4d239cf-506c-49b1-a3db-36a6101da68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GImage">
+      <UniqueIdentifier>{c0d93222-10c3-4aab-82e2-f5583a970be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameCore">
+      <UniqueIdentifier>{cce04bfd-8a4f-4cff-8af1-f337e6420a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DeginePattern">
+      <UniqueIdentifier>{c00f093b-e5d7-4372-aea2-d717d1bd36cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DeginePattern\Singleton">
+      <UniqueIdentifier>{e0715b1c-564b-4055-a00a-b96c2686baa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RandomFunction.h">
+      <Filter>소스 파일\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunction.h">
+      <Filter>소스 파일\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>소스 파일\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>소스 파일\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GImage.h">
+      <Filter>소스 파일\GImage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>소스 파일\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>소스 파일\DeginePattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>소스 파일\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>소스 파일\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GImage.cpp">
+      <Filter>소스 파일\GImage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>소스 파일\GameCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
